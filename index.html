@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>배움터 - 쉽고 재미있는 온라인 교육</title>
+<meta name="description" content="코딩, 디자인, 마케팅을 하루 30분으로 배우는 온라인 교육 플랫폼">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a href="#" class="logo">📚 배움터</a>
+    <nav>
+      <a href="#courses">강의</a>
+      <a href="#why">특징</a>
+      <a href="#reviews">후기</a>
+      <a href="#signup" class="btn small">무료 시작</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <h1>하루 30분,<br>새로운 나를 만나는 시간</h1>
+    <p>코딩·디자인·마케팅을 초보자도 쉽게. 지금 첫 강의를 무료로 들어보세요.</p>
+    <a href="#signup" class="btn">무료로 시작하기</a>
+  </div>
+</section>
+
+<section class="stats wrap">
+  <div><b>12,000+</b><span>수강생</span></div>
+  <div><b>80+</b><span>강의</span></div>
+  <div><b>4.9</b><span>평균 만족도</span></div>
+</section>
+
+<section id="courses" class="wrap section">
+  <h2>인기 강의</h2>
+  <div class="grid">
+    <article class="card"><div class="emoji">💻</div><h3>웹 개발 입문</h3><p>HTML·CSS로 내 첫 웹사이트 만들기</p><span>초급 · 4주</span></article>
+    <article class="card"><div class="emoji">🎨</div><h3>UI 디자인 기초</h3><p>Figma로 배우는 화면 디자인</p><span>초급 · 3주</span></article>
+    <article class="card"><div class="emoji">📈</div><h3>마케팅 스타터</h3><p>SNS·검색 광고 핵심 한눈에</p><span>초급 · 2주</span></article>
+  </div>
+</section>
+
+<section id="why" class="section alt">
+  <div class="wrap">
+    <h2>왜 배움터일까요?</h2>
+    <div class="grid">
+      <div class="feature"><h3>⏱ 짧은 영상</h3><p>10분 내외로 부담 없이.</p></div>
+      <div class="feature"><h3>🧑‍🏫 1:1 질문</h3><p>막히면 멘토가 답해드려요.</p></div>
+      <div class="feature"><h3>🏅 수료증</h3><p>완주하면 수료증 발급.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="reviews" class="wrap section">
+  <h2>수강생 후기</h2>
+  <div class="grid">
+    <blockquote>“비전공자인데 2주 만에 사이트를 만들었어요!” <cite>- 김OO</cite></blockquote>
+    <blockquote>“설명이 쉬워서 끝까지 들을 수 있었어요.” <cite>- 이OO</cite></blockquote>
+    <blockquote>“멘토 답변이 빨라서 좋았습니다.” <cite>- 박OO</cite></blockquote>
+  </div>
+</section>
+
+<section id="signup" class="cta">
+  <div class="wrap">
+    <h2>지금 무료로 시작하세요</h2>
+    <form onsubmit="event.preventDefault();document.getElementById('msg').textContent='신청되었습니다! 곧 연락드릴게요 😊';this.reset();">
+      <input type="email" placeholder="이메일 주소" required>
+      <button class="btn" type="submit">신청하기</button>
+    </form>
+    <p id="msg"></p>
+  </div>
+</section>
+
+<footer><div class="wrap">© 2026 배움터. 연습용 데모 페이지입니다.</div></footer>
+</body>
+</html>
